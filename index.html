@@ -1,47 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Charity: Water</title>
+
+<style>
+body{
+    background:#f3efe1;
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:40px;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header img {
+    height: 150px;
+}
+
+nav a{
+    text-decoration:none;
+    background:#86b2c7;
+    color:white;
+    padding:12px 20px;
+    border-radius:25px;
+    margin-left:10px;
+}
+
+.hero{
+    display:flex;
+    align-items:center;
+    gap:50px;
+    margin-top:50px;
+}
+
+.hero-image img{
+    width:700px;
+    max-width:100%;
+}
+
+.hero-content h1{
+    color:#b96f48;
+    font-size:3rem;
+}
+
+.hero-content p{
+    color:#7da7ba;
+    font-size:1.5rem;
+}
+
+.button{
+    display:inline-block;
+    background:#ffc907;
+    color:#b96f48;
+    padding:15px 30px;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+</style>
+
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
+<header>
 
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
-        </div>
-    </section>
+<div class="logo">
+<img src="img/charity-water-logo.png" alt="Charity Water Logo">
+</div>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
-    </section>
+<nav>
+<a href="#">OUR WORK</a>
+<a href="#">ABOUT US</a>
+<a href="#">CONTACT</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-image">
+<img src="img/child-water.jpg" alt="Child drinking water">
+</div>
+
+<div class="hero-content">
+<h1>GIVE CLEAN WATER.<br>MAKE REAL IMPACT.</h1>
+
+<p>
+Help bring safe water to people in need.<br>
+100% of donations fund water projects.
+</p>
+
+<a href="#" class="button">START YOUR IMPACT</a>
+
+</div>
+
+</section>
+
 </body>
 </html>
